@@ -13726,6 +13726,13 @@ func schema_openshift_api_config_v1_ImageSpec(ref common.ReferenceCallback) comm
 							Ref:         ref("github.com/openshift/api/config/v1.RegistrySources"),
 						},
 					},
+					"imagestreamImportMode": {
+						SchemaProps: spec.SchemaProps{
+							Description: "imagestreamImportMode controls the import mode beahviour of imagestreams. It can be set to `Legacy` or `PreserveOriginal`. The default behaviour is to default to Legacy. If this value is specified, this setting is applied to all imagestreams which do not have the value set.",
+							Type:        []string{"string"},
+							Format:      "",
+						},
+					},
 				},
 			},
 		},
@@ -42352,6 +42359,13 @@ func schema_openshift_api_openshiftcontrolplane_v1_ImagePolicyConfig(ref common.
 						SchemaProps: spec.SchemaProps{
 							Description: "additionalTrustedCA is a path to a pem bundle file containing additional CAs that should be trusted during imagestream import.",
 							Default:     "",
+							Type:        []string{"string"},
+							Format:      "",
+						},
+					},
+					"imagestreamImportMode": {
+						SchemaProps: spec.SchemaProps{
+							Description: "imagestreamImportMode controls the import mode beahviour of imagestreams. It can be set to `Legacy` or `PreserveOriginal`. The default behaviour is to default to Legacy. If this value is specified, this setting is applied to all imagestreams which do not have the value set.",
 							Type:        []string{"string"},
 							Format:      "",
 						},

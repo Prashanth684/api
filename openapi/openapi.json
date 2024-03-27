@@ -7245,6 +7245,10 @@
             "default": ""
           }
         },
+        "imagestreamImportMode": {
+          "description": "imagestreamImportMode controls the import mode beahviour of imagestreams. It can be set to `Legacy` or `PreserveOriginal`. The default behaviour is to default to Legacy. If this value is specified, this setting is applied to all imagestreams which do not have the value set.",
+          "type": "string"
+        },
         "registrySources": {
           "description": "registrySources contains configuration that determines how the container runtime should treat individual registries when accessing images for builds+pods. (e.g. whether or not to allow insecure access).  It does not contain configuration for the internal cluster registry.",
           "default": {},
@@ -24589,6 +24593,10 @@
             "type": "string",
             "default": ""
           }
+        },
+        "imagestreamImportMode": {
+          "description": "imagestreamImportMode controls the import mode beahviour of imagestreams. It can be set to `Legacy` or `PreserveOriginal`. The default behaviour is to default to Legacy. If this value is specified, this setting is applied to all imagestreams which do not have the value set.",
+          "type": "string"
         },
         "internalRegistryHostname": {
           "description": "internalRegistryHostname sets the hostname for the default internal image registry. The value must be in \"hostname[:port]\" format.",
