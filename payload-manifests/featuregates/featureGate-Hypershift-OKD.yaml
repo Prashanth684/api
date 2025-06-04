@@ -22,40 +22,13 @@
                         "name": "AWSDedicatedHosts"
                     },
                     {
-                        "name": "AWSEFSDriverVolumeMetrics"
-                    },
-                    {
-                        "name": "AdditionalRoutingCapabilities"
-                    },
-                    {
-                        "name": "AdminNetworkPolicy"
-                    },
-                    {
-                        "name": "AlibabaPlatform"
-                    },
-                    {
                         "name": "AutomatedEtcdBackup"
-                    },
-                    {
-                        "name": "AzureDedicatedHosts"
                     },
                     {
                         "name": "AzureMultiDisk"
                     },
                     {
-                        "name": "AzureWorkloadIdentity"
-                    },
-                    {
                         "name": "BootcNodeManagement"
-                    },
-                    {
-                        "name": "BuildCSIVolumes"
-                    },
-                    {
-                        "name": "CPMSMachineNamePrefix"
-                    },
-                    {
-                        "name": "ChunkSizeMiB"
                     },
                     {
                         "name": "ClusterAPIInstall"
@@ -68,9 +41,6 @@
                     },
                     {
                         "name": "ClusterVersionOperatorConfiguration"
-                    },
-                    {
-                        "name": "ConsolePluginContentSecurityPolicy"
                     },
                     {
                         "name": "DNSNameResolver"
@@ -94,9 +64,6 @@
                         "name": "Example2"
                     },
                     {
-                        "name": "ExternalOIDC"
-                    },
-                    {
                         "name": "ExternalOIDCWithUIDAndExtraClaimMappings"
                     },
                     {
@@ -106,28 +73,13 @@
                         "name": "GCPCustomAPIEndpoints"
                     },
                     {
-                        "name": "GCPLabelsTags"
-                    },
-                    {
-                        "name": "GatewayAPI"
-                    },
-                    {
                         "name": "GatewayAPIController"
-                    },
-                    {
-                        "name": "HardwareSpeed"
                     },
                     {
                         "name": "HighlyAvailableArbiter"
                     },
                     {
-                        "name": "ImageStreamImportMode"
-                    },
-                    {
                         "name": "IngressControllerDynamicConfigurationManager"
-                    },
-                    {
-                        "name": "IngressControllerLBSubnetsAWS"
                     },
                     {
                         "name": "InsightsConfig"
@@ -145,9 +97,6 @@
                         "name": "KMSEncryptionProvider"
                     },
                     {
-                        "name": "KMSv1"
-                    },
-                    {
                         "name": "MachineAPIMigration"
                     },
                     {
@@ -157,19 +106,7 @@
                         "name": "MachineConfigNodes"
                     },
                     {
-                        "name": "ManagedBootImages"
-                    },
-                    {
-                        "name": "ManagedBootImagesAWS"
-                    },
-                    {
                         "name": "ManagedBootImagesvSphere"
-                    },
-                    {
-                        "name": "MaxUnavailableStatefulSet"
-                    },
-                    {
-                        "name": "MetricsCollectionProfiles"
                     },
                     {
                         "name": "MinimumKubeletVersion"
@@ -179,15 +116,6 @@
                     },
                     {
                         "name": "MultiArchInstallAzure"
-                    },
-                    {
-                        "name": "NetworkDiagnosticsConfig"
-                    },
-                    {
-                        "name": "NetworkLiveMigration"
-                    },
-                    {
-                        "name": "NetworkSegmentation"
                     },
                     {
                         "name": "NewOLM"
@@ -205,25 +133,10 @@
                         "name": "NewOLMWebhookProviderOpenshiftServiceCA"
                     },
                     {
-                        "name": "NodeDisruptionPolicy"
-                    },
-                    {
-                        "name": "NodeSwap"
-                    },
-                    {
                         "name": "NutanixMultiSubnets"
                     },
                     {
                         "name": "OVNObservability"
-                    },
-                    {
-                        "name": "OnClusterBuild"
-                    },
-                    {
-                        "name": "OpenShiftPodSecurityAdmission"
-                    },
-                    {
-                        "name": "PersistentIPsForVirtualization"
                     },
                     {
                         "name": "PinnedImages"
@@ -235,25 +148,10 @@
                         "name": "PreconfiguredUDNAddresses"
                     },
                     {
-                        "name": "PrivateHostedZoneAWS"
-                    },
-                    {
-                        "name": "ProcMountType"
-                    },
-                    {
                         "name": "RouteAdvertisements"
                     },
                     {
-                        "name": "RouteExternalCertificate"
-                    },
-                    {
                         "name": "SELinuxMount"
-                    },
-                    {
-                        "name": "ServiceAccountTokenNodeBinding"
-                    },
-                    {
-                        "name": "SetEIPForNLBIngressController"
                     },
                     {
                         "name": "ShortCertRotation"
@@ -274,12 +172,6 @@
                         "name": "UpgradeStatus"
                     },
                     {
-                        "name": "UserNamespacesPodSecurityStandards"
-                    },
-                    {
-                        "name": "UserNamespacesSupport"
-                    },
-                    {
                         "name": "VSphereConfigurableMaxAllowedBlockVolumesPerNode"
                     },
                     {
@@ -292,12 +184,6 @@
                         "name": "VSphereMultiDisk"
                     },
                     {
-                        "name": "VSphereMultiNetworks"
-                    },
-                    {
-                        "name": "ValidatingAdmissionPolicy"
-                    },
-                    {
                         "name": "VolumeAttributesClass"
                     },
                     {
@@ -306,7 +192,121 @@
                 ],
                 "enabled": [
                     {
+                        "name": "AWSEFSDriverVolumeMetrics"
+                    },
+                    {
+                        "name": "AdditionalRoutingCapabilities"
+                    },
+                    {
+                        "name": "AdminNetworkPolicy"
+                    },
+                    {
+                        "name": "AlibabaPlatform"
+                    },
+                    {
+                        "name": "AzureDedicatedHosts"
+                    },
+                    {
+                        "name": "AzureWorkloadIdentity"
+                    },
+                    {
+                        "name": "BuildCSIVolumes"
+                    },
+                    {
+                        "name": "CPMSMachineNamePrefix"
+                    },
+                    {
+                        "name": "ChunkSizeMiB"
+                    },
+                    {
+                        "name": "ConsolePluginContentSecurityPolicy"
+                    },
+                    {
                         "name": "DynamicResourceAllocation"
+                    },
+                    {
+                        "name": "ExternalOIDC"
+                    },
+                    {
+                        "name": "GCPLabelsTags"
+                    },
+                    {
+                        "name": "GatewayAPI"
+                    },
+                    {
+                        "name": "HardwareSpeed"
+                    },
+                    {
+                        "name": "ImageStreamImportMode"
+                    },
+                    {
+                        "name": "IngressControllerLBSubnetsAWS"
+                    },
+                    {
+                        "name": "KMSv1"
+                    },
+                    {
+                        "name": "ManagedBootImages"
+                    },
+                    {
+                        "name": "ManagedBootImagesAWS"
+                    },
+                    {
+                        "name": "MaxUnavailableStatefulSet"
+                    },
+                    {
+                        "name": "MetricsCollectionProfiles"
+                    },
+                    {
+                        "name": "NetworkDiagnosticsConfig"
+                    },
+                    {
+                        "name": "NetworkLiveMigration"
+                    },
+                    {
+                        "name": "NetworkSegmentation"
+                    },
+                    {
+                        "name": "NodeDisruptionPolicy"
+                    },
+                    {
+                        "name": "NodeSwap"
+                    },
+                    {
+                        "name": "OnClusterBuild"
+                    },
+                    {
+                        "name": "OpenShiftPodSecurityAdmission"
+                    },
+                    {
+                        "name": "PersistentIPsForVirtualization"
+                    },
+                    {
+                        "name": "PrivateHostedZoneAWS"
+                    },
+                    {
+                        "name": "ProcMountType"
+                    },
+                    {
+                        "name": "RouteExternalCertificate"
+                    },
+                    {
+                        "name": "ServiceAccountTokenNodeBinding"
+                    },
+                    {
+                        "name": "SetEIPForNLBIngressController"
+                    },
+                    {
+                        "name": "UserNamespacesPodSecurityStandards"
+                    },
+                    {
+                        "name": "UserNamespacesSupport"
+                    },
+                    {
+                        "name": "VSphereMultiNetworks"
+                    },
+                    {
+                        "name": "ValidatingAdmissionPolicy"
                     }
                 ],
                 "version": ""
